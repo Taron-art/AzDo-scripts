@@ -4,7 +4,7 @@ param(
     [Parameter(Mandatory=$true, position=0)][string]$ParentFeature,
     [Parameter(Mandatory=$true, position=1)][string]$NewUserStoryName,
     [switch]$OnlyDev,
-	[switch]$OnlyTasks
+    [switch]$OnlyTasks
 )
 $ErrorActionPreference = "Stop"
 
